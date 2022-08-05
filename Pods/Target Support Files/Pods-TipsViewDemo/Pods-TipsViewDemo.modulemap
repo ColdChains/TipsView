@@ -1,0 +1,6 @@
+framework module Pods_TipsViewDemo {
+  umbrella header "Pods-TipsViewDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

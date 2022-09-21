@@ -273,5 +273,9 @@ extension UIView {
             sendSubviewToBack(loadView)
         }
     }
+    
+    public func endLoadingWithCount(_ count: Int) {
+        
+    }
 
 }

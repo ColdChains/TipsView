@@ -16,9 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TipsView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Common View of TipsView"
-  spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -94,7 +93,8 @@ Common View of TipsView.
 
   spec.source_files  = "TipsView/**/*.swift"
   spec.exclude_files = "Classes/Exclude"
-
+  spec.swift_version = '5.6'
+  
   # spec.public_header_files = "Classes/**/*.h"
 
 
@@ -134,6 +134,6 @@ Common View of TipsView.
   # spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "SnapKit", "~> 5.6.0"
+  spec.dependency "SnapKit"
 
 end
